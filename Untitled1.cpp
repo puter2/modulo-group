@@ -20,7 +20,7 @@ int wzglpierwsze(int n, int a)
 	return 1;
 }
 
-void jebnijmytabelke(int n)
+void tabelka(int n)
 {
 	printf("\n");
 	int A[n],j=0;
@@ -60,7 +60,7 @@ int main()
 		if(wzglpierwsze(n,i)==1)
 		printf("%d, ",i);
 		
-	jebnijmytabelke(n);
+	tabelka(n);
 	
 	system("pause");
 	
